@@ -5,10 +5,10 @@ accountcity = "jaipur"
 
 //accouuntId=2//cant give assignment to constant variable
 
-accountEmail="hello@false.com "
+accountEmail="hc@hc.com "
 accountpassword="67890"
 accountcity="delhi"
 console . log(accountId);
 
-console.table( accountEmail, accountpassword, accountcity);
+console.table([accountId,accountEmail, accountpassword, accountcity]);
 //table is to make a tabular structure in console using comma
