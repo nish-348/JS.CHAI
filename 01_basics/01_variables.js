@@ -6,6 +6,8 @@ let accountstate;
 
 //accouuntId=2//cant give assignment to constant variable
 
+// prefer not to use var,,,,function scoped h bugss
+
 accountEmail="dgfdhv@hc.com "
 accountpassword="67890"
 accountcity="delhi"
