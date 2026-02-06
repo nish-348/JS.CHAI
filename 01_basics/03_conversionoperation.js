@@ -47,3 +47,4 @@ let negvalue=-34
 //console.log("5"-2)//subtraction operation...string "5" is converted to number 5 and then 2 is subtracted from it to give 3
 //console.log("5"*2)//multiplication operation...string "5" is converted to number 5 and then multiplied by 2 to give 10
 //console.log("5"/2)//division operation...string "5" is converted to number 5 and then divided by 2 to give 2.5
+
