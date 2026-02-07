@@ -15,7 +15,8 @@
 // isiliyewe last me null ko 0 maan ke kaam kiya
 
 //===    strict checking operator
-console'log("2"===2) //false
+
+console.log("2"===2) //false
 console.log("2"==2) //true
 
 //=== operator check karta hai ki dono value same hain ya nahi, aur dono ka datatype same hai ya nahi
