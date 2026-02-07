@@ -39,7 +39,7 @@ let booleanrat=Boolean(rat)
 
 
 let a=34
-let negvalue=-34
+let negvalue=-a
 //console.log(negvalue);
 
 //console.log(2+"2")//string concatenation...number 2 is converted to string "2" and then concatenated with "2" to give "22"
@@ -48,3 +48,16 @@ let negvalue=-34
 //console.log("5"*2)//multiplication operation...string "5" is converted to number 5 and then multiplied by 2 to give 10
 //console.log("5"/2)//division operation...string "5" is converted to number 5 and then divided by 2 to give 2.5
 
+let str1="hello"
+let str2=" world"
+let str3 =str1 + str2   
+//console.log(str3);
+
+//string concatenation...str1 and str2 are concatenated to give "helloworld"
+
+//agar string fisrt me h toh aur sab bhi string ki tarah treat hoga..
+//agar number fisrt me h toh aur sab bhi number ki tarah treat hoga..
+
+let g=132
+g++
+console.log(g);
