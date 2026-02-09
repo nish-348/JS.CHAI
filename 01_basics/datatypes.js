@@ -72,3 +72,15 @@
       //  Represents large integers that cannot be represented by the Number type.
         //The range is practically unlimited and depends on available memory.
 
+
+
+//*************************************************************************************************************************************************
+//memory
+
+//stack and heap
+
+//stack: it is used to store primitive data types and function calls. it is faster than heap because it is organized in a last in first out (LIFO) manner. it has a limited size and if we try to store more data than its capacity it will throw an error called stack overflow.
+//stack memory me jo bhi save hoga uska copy milega
+
+//heap: it is used to store reference data types. it is slower than stack because it is not organized in a specific manner. it has a larger size than stack and it can grow and shrink dynamically as needed. when we create an object or an array, it is stored in the heap and the variable that references it stores the address of that location in the heap.
+//heap me jo bhi karenge wo refference leke original file me change karenge
