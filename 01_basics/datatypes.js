@@ -84,3 +84,6 @@
 
 //heap: it is used to store reference data types. it is slower than stack because it is not organized in a specific manner. it has a larger size than stack and it can grow and shrink dynamically as needed. when we create an object or an array, it is stored in the heap and the variable that references it stores the address of that location in the heap.
 //heap me jo bhi karenge wo refference leke original file me change karenge
+
+
+
