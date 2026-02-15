@@ -25,7 +25,7 @@
 // console.log(myArr5);
 
 //ARRAY METHODS
-const myArr6= ["bat", "ball", "stump"];
+//const myArr6= ["bat", "ball", "stump"];
 //push method
 // myArr6.push("gloves");
 // console.log(myArr6);
