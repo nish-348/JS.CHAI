@@ -64,3 +64,4 @@ const myArr6= ["bat", "ball", "stump"];
 //myArr8.splice(1, 2, "wicket", "bails");//splice method me hum starting index dena hota hai aur uske baad kitne element ko remove karna hai
 // uske baad jitne bhi element ko add karna hai unko dena hota hai splice method se original array me change hota hai
 //console.log(myArr8);
+
