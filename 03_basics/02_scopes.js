@@ -12,14 +12,19 @@
 // Curly braces {} => Scope
 
 //Problems
+
+//if ke baahar global scope me a, b, c ko access kar sakte hai
+let a= 1;
 if(true){
     let d = 10;
     const e = 20;
     var f = 30; //It can be redelcared plus re-initialized
 }
-console.log(d); //This will throw error as we are trying to access d outside block of if conditional
-console.log(e); //This will also throw error are we are trying to access e outside block of if conditional
-console.log(f); //This will print 30 => And that is a problem, it shouldn't be accessed the block
+console.log(a); //This will print 1 as a is declared in global scope
+
+// console.log(d); //This will throw error as we are trying to access d outside block of if conditional
+// console.log(e); //This will also throw error are we are trying to access e outside block of if conditional
+// console.log(f); //This will print 30 => And that is a problem, it shouldn't be accessed the block
 
 //Note! => code written in global scope can be accessed in the block scope but the vice-versa is not true
 
