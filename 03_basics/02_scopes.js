@@ -74,4 +74,4 @@ one()
     const addtwo = function(num){
         return num+2;
     };
-    
+    //Note! => function declaration is hoisted but function expression is not hoisted
