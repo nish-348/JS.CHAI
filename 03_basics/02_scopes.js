@@ -31,3 +31,47 @@ console.log(a); //This will print 1 as a is declared in global scope
 //Note! => Global Scope in console and node js environment (production code) is different
 
 //hii ,i am back
+//nested scope => scope ke andar scope
+
+function one(){
+    const username="nishtha"
+    
+        function two(){
+            const website="nishtha.com"
+        console.log(username);
+    }
+    //console.log(website);//This will throw error as we are trying to access website outside block of two function
+
+       //two()// if we call two() here then it will print nishtha as username is in the scope of one function and 
+       // two function is inside one function
+
+}   
+one()
+
+
+//now with if and else
+    if (true){
+        const username="nishtha"
+        if (username==="nishtha") {
+            const website="nishtha.com"
+            console.log(username+website);
+        }
+        //console.log(website); //error as we are trying to access website outside block of if conditional
+    }
+    //console.log(username); //This will throw error as we are trying to access username outside
+    //  block of if conditional
+
+
+
+    //+++++++++++++++++++++++++++++intereseting++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    console.log(addone(5)); //This will print 6 as we are calling addone function before its declaration
+    function addone(num){
+        return num+1;
+    }
+//but if we call addtwo function before its declaration then it will throw error as we are trying to 
+// access addtwo before its declaration
+//addtwo(5) //This will throw error as we are trying to access addtwo before its declaration
+    const addtwo = function(num){
+        return num+2;
+    };
+    
