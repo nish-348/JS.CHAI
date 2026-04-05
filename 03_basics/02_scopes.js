@@ -30,3 +30,4 @@ console.log(a); //This will print 1 as a is declared in global scope
 
 //Note! => Global Scope in console and node js environment (production code) is different
 
+//hii ,i am back
