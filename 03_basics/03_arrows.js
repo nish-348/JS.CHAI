@@ -21,7 +21,8 @@ console.log(this); // output empty hoga
 
 //arrow function
 const welcomemessage = () => { 
-    console.log(this); //this will print empty object as this keyword in arrow function is referring to the parent scope which is global scope and in global scope this keyword is empty object
+    console.log(this); //this will print empty object as this keyword in arrow function is referring to the parent scope which is global scope 
+    // and in global scope this keyword is empty object
 }
 //arrow function ka syntax ye h ki function keyword nahi hota aur isme this keyword parent scope ko refer karta hai
 //() => {} is the syntax of arrow function
