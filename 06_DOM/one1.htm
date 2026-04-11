@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Dom</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+        </style>
 </head>
-<body>
+<body  class="bg-black">
     <div class="bg-black">
-        <h1 id="title" class="heading">dom learning</h1>
+        <h1 id="title" class="heading">Dom Learning</h1>
         <p>lorem ipsum dolor sit amet</p>
     </div>
 </body>
 </html>
+/! DOM[All Document elements are objects in javascript] 
+    -> window is a global object which contains document object
+    -> console.dir(document) gives the document object as it is
+    -> document.baseURI - give the base url
+    -> document.getElementById() - used to select the element with id
+
+    -> targeting the elements [elements ko catch karna]
+    -> document.getElementByClassName() //returns HTML collection
+
+    -> element.className - gives the class name [used in react]
+    -> element.id = gives the id
+    -> element.getAttribute('att_name')
+    -> element.setAttribute('att_name','att_value') - overwrites the pre-existing attribute
+    -> element.style.color = 'red'
+
+    -> element.textContent =  gives the display:none element too
+    -> element.innerText = does not give the display:none elements
+    -> element.innerHTML = gives the html too
+
+    -> element.querySelector('any') = it can take any selector like we give in css
+    -> We can also use querySelector or any selecting method on any element which contains some child nodes
+    -> We can use forEach on NodeList which comes from querySelectorAll()
+    -> NODELIST AND HTML COLLECTION are not pure arrays but nodelist has forEach() method
+    -> Html collection do not have forEach() so it needs to be converted to array first
+    -> Both nodelist & htmlcollection can be converted into array by using Array.from(nodeList/HtmlCollection)
+
