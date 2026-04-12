@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">                
+<head>
+    <meta charset="UTF-8">
+    <title>Dom</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+<div class="day"> monday</div>
+<div class="day"> tuesday</div>
+<div class="day"> wednesday</div>
+<div class="day"> thursday</div>
+<div class="day"> friday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent');//parent ek class h toh usko select krne ke liye queryselector use kr rhe h
+    console.log(parent)
+    consoloe.log(parent.children) //HTML collection return krta h
+    console.log(parent.childNodes) //NodeList return krta h
+    console.log(parent.childNodes[0]) //first child node
+    console.log(parent.childNodes[1]) //second child node
+    </script>
+</html>
