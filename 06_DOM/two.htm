@@ -15,10 +15,19 @@
 </body>
 <script>
     const parent = document.querySelector('.parent');//parent ek class h toh usko select krne ke liye queryselector use kr rhe h
-    console.log(parent)
-    consoloe.log(parent.children) //HTML collection return krta h
+    console.log(parent);
+    console.log(parent.children) //HTML collection return krta h
     console.log(parent.childNodes) //NodeList return krta h
     console.log(parent.childNodes[0]) //first child node
     console.log(parent.childNodes[1]) //second child node
+
+    for(let i=0; i<parent.childNodes.length; i++){
+        console.log(parent.childNodes[i]);//yeh loop ke through hum child nodes ko access kr rhe h
+
+
+    }
+    parent.children[0].style.color = 'red'; //first child element ka color red kr diya
+    console.log(parent.firstElementChild); //first child element ko access krne ke liye firstElementChild use krte h
+    console.log(parent.lastElementChild); //last child element ko access krne ke liye
     </script>
 </html>
