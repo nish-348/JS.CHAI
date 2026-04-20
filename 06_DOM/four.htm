@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>  
+</body>
+<script>//optimised way me h
+    function  addlanguage(langname){
+        const li=document.createElement('li');
+        const text=document.createTextNode(langname);
+        li.appendChild(text);
+        document.querySelector('.language').appendChild(li);
+
+    }
+    addlanguage("Python");
+    addlanguage("Java");
+//edit
+
+const secondlanguage=document.querySelector("li:nth-child(2)");
+const newli=document.createElement('li');
+newli.textContent="C++";
+secondlanguage.replaceWith(newli);
+
+//edit
+const firstlanguage=document.querySelector("li:first-child");
+firstlanguage.outerHTML='<li>HTML</li>';//first language ko HTML se replace krne ke liye outerHTML property use krte h  
+
+//remove
+
+const lastlang=document.querySelector("li:last-child");
+lastlang.remove();//last language ko remove krne ke liye remove method use krte h
+
+</script>
+</html>
+
